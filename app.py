@@ -11,7 +11,6 @@ from langchain.chains.question_answering import load_qa_chain
 from langchain.prompts import PromptTemplate
 from youtube_transcript_api import YouTubeTranscriptApi as yta
 
-import youtube_dl
 import speech_recognition as sr
 
 genai.configure(api_key='AIzaSyDURpJOTQXExKr1qdZ1SD7aDS4lnyBkveg')
